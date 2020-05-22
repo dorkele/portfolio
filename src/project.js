@@ -5,10 +5,18 @@ import data from "./projects.json";
 export default function Project({ id, closeModal }) {
     const [count, setCount] = useState(0);
     const countDecrease = () => {
-        setCount(count - 1);
+        if (count === 0) {
+            setCount(data[id].images.length - 1);
+        } else {
+            setCount(count - 1);
+        }
     };
     const countIncrease = () => {
-        setCount(count + 1);
+        if (count === data[id].images.length - 1) {
+            setCount(0);
+        } else {
+            setCount(count + 1);
+        }
     };
     return (
         <div className={styles.overlay}>
@@ -20,6 +28,7 @@ export default function Project({ id, closeModal }) {
                     <p className={styles.navig} onClick={countDecrease}>
                         &lt;
                     </p>
+
                     <img
                         src={data[id].images[count]}
                         alt="screenshot"

@@ -1,4 +1,13 @@
 .container {
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello {
+    background-size: 50%;
+    background-color: yellow;
+    color: transparent;
 }

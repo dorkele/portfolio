@@ -8,10 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Poiret One", cursive;
 }
 
 .container {
-    background-color: #f1dac4;
+    background-color: #351431;
     color: #b7adcf;
     height: 80%;
     width: 500px;
