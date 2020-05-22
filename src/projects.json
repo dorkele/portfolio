@@ -1,0 +1,38 @@
+[
+    {},
+    {
+        "id": 1,
+        "images": ["/images/connect.png", "/images/can-you-sea-me.jpg", "img3"],
+        "title": "Connect Four",
+        "description": "Simple game of Connect Four reimagined as the classic battle between light and dark.",
+        "stack": "HTML5, CSS3, jQuery"
+    },
+    {
+        "id": 2,
+        "images": ["img1", "img2", "img3"],
+        "title": "Petition",
+        "description": "Application for collecting signatures.",
+        "stack": "handlebars, jQuery"
+    },
+    {
+        "id": 3,
+        "images": ["img1", "img2", "img3"],
+        "title": "Imageboard",
+        "description": "Web application for posting images of the sea with inspirational quotes.",
+        "stack": "HTML5, CSS3, Vue, Ajax"
+    },
+    {
+        "id": 4,
+        "images": ["img1", "img2", "img3"],
+        "title": "Social Network: Bubbles",
+        "description": "Social Network for connecting people who have nothing in common.",
+        "stack": "React.js..."
+    },
+    {
+        "id": 1,
+        "images": ["img1", "img2", "img3"],
+        "title": "Scrollytelling: 'Zudnja za smakom'",
+        "description": "Interactive storyytelling triggered by user's scrolling, clicking and hovering.",
+        "stack": "React.js, Framer motion"
+    }
+]
