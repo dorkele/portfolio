@@ -1,5 +1,6 @@
 * {
     margin: 0;
+<<<<<<< HEAD
     cursor: none;
 }
 
@@ -11,6 +12,15 @@
     color: #8d99ae;
     /* background-color: #5c415d; */
     background-color: #282d42;
+=======
+}
+
+.background {
+    background-color: lavender;
+    height: 100%;
+    width: 100%;
+    color: #b7adcf;
+>>>>>>> e488841ad229513423528f90f4dc1c961d9e9c6c
 }
 
 .bla {
