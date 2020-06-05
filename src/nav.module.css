@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    padding-top: 10px;
+    padding-right: 20px;
+    z-index: 10;
+}
+
+.home {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.projects {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+}
+
+.contact {
+    font-family: "Poiret One", cursive;
+    font-size: 30px;
+}
+
+.home,
+.projects,
+.contact:hover {
+    cursor: pointer;
+}

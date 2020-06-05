@@ -1,0 +1,31 @@
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 10%);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.github {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.linkedin {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.email {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+a {
+    text-decoration: none;
+    color: #b4a0e5;
+}

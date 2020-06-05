@@ -1,0 +1,47 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Cormorant", serif;
+    color: palevioletred;
+    font-size: 200px;
+    display: flex;
+    background-color: #282d42;
+    position: fixed;
+    z-index: 1;
+}
+
+.subtitles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr); */
+    font-size: 30px;
+    text-align: center;
+}
+
+.fullstack {
+    /* position: fixed; */
+    /* padding-top: 30%; */
+    /* grid-column: 1/2;
+    grid-row: 2/3; */
+    width: 100%;
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.title {
+    bottom: 0;
+    /* position: fixed; */
+    text-align: center;
+    /* height: 20%; */
+    width: 100%;
+    z-index: 1;
+    font-size: 200px;
+}
