@@ -2,46 +2,18 @@
     position: fixed;
     padding-top: 10px;
     padding-right: 20px;
-<<<<<<< HEAD
     z-index: 10;
-=======
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    align-items: baseline;
->>>>>>> e488841ad229513423528f90f4dc1c961d9e9c6c
+    font-family: "CirrusCumulus", sans-serif;
+    font-size: 40px;
 }
 
-.home {
-    font-family: "Pacifico", cursive;
-<<<<<<< HEAD
-    font-size: 30px;
-=======
-    font-size: 50px;
->>>>>>> e488841ad229513423528f90f4dc1c961d9e9c6c
-}
-
-.projects {
-    font-family: "Sacramento", cursive;
-<<<<<<< HEAD
-    font-size: 30px;
-=======
-    font-size: 50px;
->>>>>>> e488841ad229513423528f90f4dc1c961d9e9c6c
-}
-
-.contact {
-    font-family: "Poiret One", cursive;
-<<<<<<< HEAD
-    font-size: 30px;
-=======
-    font-size: 50px;
->>>>>>> e488841ad229513423528f90f4dc1c961d9e9c6c
-}
-
-.home,
-.projects,
+.home:hover,
+.projects:hover,
 .contact:hover {
-    cursor: pointer;
+    font-style: italic;
+}
+.home:focus,
+.projects:focus,
+.contact:focus-within {
+    font-style: italic;
 }

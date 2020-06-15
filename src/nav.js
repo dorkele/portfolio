@@ -8,23 +8,26 @@ export default function Nav({
     setColor,
     setHome,
     setContact,
+    setOpacity,
 }) {
-    const [navColor, setNavColor] = useState("#8d99ae");
+    const [navColor, setNavColor] = useState("#C297B8");
     const home = () => {
         setProjects(false);
         setHome(true);
         setContact(false);
-        setBackGround("#282D42");
-        setColor("#8D99AE");
-        setNavColor("#8D99AE");
+        setBackGround("#190B28");
+        setColor("#FDCFF3");
+        setNavColor("#C297B8");
+        setOpacity(1);
     };
     const projects = () => {
         setProjects(true);
         setHome(false);
         setContact(false);
-        setBackGround("#BFD1E5");
-        setColor("#31081F");
-        setNavColor("#31081F");
+        setBackGround("#3A3335");
+        setColor("#A5D8FF");
+        setNavColor("#A5D8FF");
+        setOpacity(0.1);
     };
     const contact = () => {
         setContact(true);
@@ -33,6 +36,7 @@ export default function Nav({
         setBackGround("#2E294E");
         setColor("#B4A0E5");
         setNavColor("#B4A0E5");
+        setOpacity(1);
     };
     return (
         <div className={styles.nav}>
@@ -41,7 +45,7 @@ export default function Nav({
                 style={{
                     position: "fixed",
                     display: "flex",
-                    justifyContent: "space-around",
+                    justifyContent: "space-evenly",
                     alignItems: "baseline",
                     width: "100%",
                 }}
@@ -51,13 +55,13 @@ export default function Nav({
                 }}
             >
                 <p onClick={home} className={styles.home}>
-                    Home
+                    home
                 </p>
                 <p onClick={projects} className={styles.projects}>
-                    Projects
+                    projects
                 </p>
                 <p onClick={contact} className={styles.contact}>
-                    Contact
+                    contact
                 </p>
             </Frame>
         </div>

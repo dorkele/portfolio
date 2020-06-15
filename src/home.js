@@ -9,8 +9,9 @@ export default function Home() {
     const [home, setHome] = useState(true);
     const [projects, setProjects] = useState(false);
     const [contact, setContact] = useState(false);
-    const [backGround, setBackGround] = useState("#282D42");
-    const [color, setColor] = useState("palevioletred");
+    const [backGround, setBackGround] = useState("#190B28");
+    const [color, setColor] = useState("#F1E0C5");
+    const [opacity, setOpacity] = useState(1);
 
     return (
         <React.Fragment>
@@ -19,7 +20,10 @@ export default function Home() {
                 id="home"
                 className={styles.container}
                 size={"100%"}
-                animate={{ background: backGround, color: color }}
+                animate={{
+                    background: backGround,
+                    color: color,
+                }}
                 transition={{
                     duration: 5,
                 }}
@@ -30,6 +34,7 @@ export default function Home() {
                     setBackGround={setBackGround}
                     setColor={setColor}
                     setContact={setContact}
+                    setOpacity={setOpacity}
                 />
                 {projects && <Projects />}
                 {contact && <Contact />}
@@ -41,7 +46,19 @@ export default function Home() {
                             Web.
                         </p>
                     )}
-                    <p className={styles.title}>DORA TOMINIC</p>
+                    <Frame
+                        background={"none"}
+                        size={"100%"}
+                        animate={{
+                            opacity: opacity,
+                        }}
+                        transition={{
+                            duration: 2,
+                        }}
+                        className={styles.title}
+                    >
+                        dora tominic
+                    </Frame>
                 </div>
             </Frame>
         </React.Fragment>

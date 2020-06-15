@@ -23,7 +23,7 @@
             "/images/screenshots/petition/img6.png",
             "/images/screenshots/petition/img7.png"
         ],
-        "title": "Petition",
+        "title": "Petition: Found in Translation",
         "description": "Web application for collecting signatures. After successful registration and log in users can sign the petition. They can redo their signature and edit their profile details, as well as check the list of other supporters of the cause. The cause in question was showing support for translators.",
         "stack": "Javascript, Handlebars, Node / Express, PostgreSQL"
     },
@@ -35,7 +35,7 @@
             "/images/screenshots/imageboard/img3.png",
             "/images/screenshots/imageboard/img4.png"
         ],
-        "title": "Imageboard",
+        "title": "Imageboard: Can You Sea Me?",
         "description": "Instagram-like SPA where anyone can upload pictures of the sea/ocean along with inspirational quote and a title. Users can see all the images that have been uploaded to the page, leave comments and delete pictures.",
         "stack": "Javascript, Vue, Node / Express, PostgreSQL, AWS S3"
     },
@@ -74,7 +74,7 @@
             "/images/screenshots/scrollytelling/img14.png",
             "/images/screenshots/scrollytelling/img15.png"
         ],
-        "title": "Scrollytelling: 'Zudnja za smakom'",
+        "title": "Scrollytelling: Apocalypse Dreams",
         "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. With this project I wanted to explore ways in which code gives extra layers of meaning to the text. The users are invited to explore the story with no one or right way to read. They can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. On various occasions story leads them outside of itself descovering the potential of hypertext. With different animations every part of the story creates different atmospheres and text finds itself in different roles.",
         "stack": "React, Framer Motion"
     }
