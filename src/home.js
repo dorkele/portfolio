@@ -36,8 +36,9 @@ export default function Home() {
                     setContact={setContact}
                     setOpacity={setOpacity}
                 />
-                {projects && <Projects />}
                 {contact && <Contact />}
+
+                {projects && <Projects />}
                 <div className={styles.subtitles}>
                     {home && (
                         <p className={styles.fullstack}>

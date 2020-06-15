@@ -23,10 +23,10 @@ export default function Pointer() {
                     position: "absolute",
                     zIndex: 100,
                     transform: "translate(-50%, -50%)",
-                    backgroundColor: "none",
+                    backgroundColor: "#7BC950",
                     backdropFilter: "blur(50px)",
-                    height: 50,
-                    width: 50,
+                    height: 40,
+                    width: 40,
                 }}
             ></Frame>
             <Frame
@@ -37,10 +37,10 @@ export default function Pointer() {
                     position: "fixed",
                     zIndex: 100,
                     transform: "translate(-50%, -50%)",
-                    backgroundColor: "none",
+                    backgroundColor: "black",
                     backdropFilter: "blur(50px)",
-                    height: 50,
-                    width: 50,
+                    height: 20,
+                    width: 20,
                 }}
             ></Frame>
         </div>

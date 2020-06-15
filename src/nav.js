@@ -24,9 +24,9 @@ export default function Nav({
         setProjects(true);
         setHome(false);
         setContact(false);
-        setBackGround("#3A3335");
-        setColor("#A5D8FF");
-        setNavColor("#A5D8FF");
+        setBackGround("#402C77");
+        setColor("#7BC950");
+        setNavColor("#7BC950");
         setOpacity(0.1);
     };
     const contact = () => {

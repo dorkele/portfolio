@@ -11,48 +11,50 @@ export default function Projects() {
         setId("");
     }
     return (
-        <div id="projects" className={styles.container}>
-            <p
-                className={styles.fullmoon}
-                onClick={() => {
-                    openModal(1);
-                }}
-            >
-                Connect Four
-            </p>
-            <p
-                className={styles.book}
-                onClick={() => {
-                    openModal(2);
-                }}
-            >
-                Petition: Found in Translation
-            </p>
-            <p
-                className={styles.sea}
-                onClick={() => {
-                    openModal(3);
-                }}
-            >
-                Imageboard: Can You Sea Me?
-            </p>
-            <p
-                className={styles.bubble}
-                onClick={() => {
-                    openModal(4);
-                }}
-            >
-                Social Network: Bubbles
-            </p>
-            <p
-                className={styles.stones}
-                onClick={() => {
-                    openModal(5);
-                }}
-            >
-                Scrollytelling: Apocalypse Dreams
-            </p>
+        <React.Fragment>
+            <div id="projects" className={styles.container}>
+                <p
+                    className={styles.fullmoon}
+                    onClick={() => {
+                        openModal(1);
+                    }}
+                >
+                    Connect Four
+                </p>
+                <p
+                    className={styles.book}
+                    onClick={() => {
+                        openModal(2);
+                    }}
+                >
+                    Petition: Found in Translation
+                </p>
+                <p
+                    className={styles.sea}
+                    onClick={() => {
+                        openModal(3);
+                    }}
+                >
+                    Imageboard: Can You Sea Me?
+                </p>
+                <p
+                    className={styles.bubble}
+                    onClick={() => {
+                        openModal(4);
+                    }}
+                >
+                    Social Network: Bubbles
+                </p>
+                <p
+                    className={styles.stones}
+                    onClick={() => {
+                        openModal(5);
+                    }}
+                >
+                    Scrollytelling: Apocalypse Dreams
+                </p>
+            </div>
             {id && <Project id={id} closeModal={closeModal} />}
-        </div>
+        </React.Fragment>
     );
 }
