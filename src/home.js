@@ -47,20 +47,20 @@ export default function Home() {
                             Web.
                         </p>
                     )}
-                    <Frame
-                        background={"none"}
-                        size={"100%"}
-                        animate={{
-                            opacity: opacity,
-                        }}
-                        transition={{
-                            duration: 2,
-                        }}
-                        className={styles.title}
-                    >
-                        dora tominic
-                    </Frame>
                 </div>
+                <Frame
+                    background={"none"}
+                    size={"100%"}
+                    animate={{
+                        opacity: opacity,
+                    }}
+                    transition={{
+                        duration: 2,
+                    }}
+                    className={styles.title}
+                >
+                    dora tominic
+                </Frame>
             </Frame>
         </React.Fragment>
     );

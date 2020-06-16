@@ -4,11 +4,16 @@ import Project from "./project.js";
 
 export default function Projects() {
     let [id, setId] = useState("");
+    let [visible, setVisible] = useState(false);
+
     function openModal(id) {
         setId(id);
+        setVisible(true);
     }
     function closeModal() {
-        setId("");
+        setVisible(false);
+
+        // setId("");
     }
     return (
         <React.Fragment>
@@ -54,7 +59,14 @@ export default function Projects() {
                     Scrollytelling: Apocalypse Dreams
                 </p>
             </div>
-            {id && <Project id={id} closeModal={closeModal} />}
+            {id && (
+                <Project
+                    id={id}
+                    closeModal={closeModal}
+                    visible={visible}
+                    setVisible={setVisible}
+                />
+            )}
         </React.Fragment>
     );
 }
