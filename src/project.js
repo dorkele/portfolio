@@ -94,7 +94,7 @@ export default function Project({
                     </p>
                 </div>
                 <div className={styles.text}>
-                    <h1>{data[id].title}</h1>
+                    <div className={styles.title}>{data[id].title}</div>
                     <div>{data[id].description}</div>
                     <div>STACK: {data[id].stack}</div>
                 </div>
