@@ -3,7 +3,14 @@ import styles from "./project.module.css";
 import data from "./projects.json";
 import { Frame } from "framer";
 
-export default function Project({ id, closeModal, visible, setVisible }) {
+export default function Project({
+    id,
+    closeModal,
+    visible,
+    setVisible,
+    count,
+    setCount,
+}) {
     // useEffect(() => {
     //     var project = document.getElementById("project");
     //     console.log(project);
@@ -13,8 +20,6 @@ export default function Project({ id, closeModal, visible, setVisible }) {
     //         inline: "nearest",
     //     });
     // }, [id]);
-
-    const [count, setCount] = useState(0);
 
     const variants = {
         slideIn: {
@@ -54,6 +59,9 @@ export default function Project({ id, closeModal, visible, setVisible }) {
                     flexDirection: "row",
                 }}
             >
+                <p className={styles.iks} onClick={closeModal}>
+                    X
+                </p>
                 {/* <div
                     style={{
                         display: "flex",
@@ -91,9 +99,6 @@ export default function Project({ id, closeModal, visible, setVisible }) {
                     <div>STACK: {data[id].stack}</div>
                 </div>
                 {/* </div> */}
-                <p className={styles.iks} onClick={closeModal}>
-                    X
-                </p>
             </Frame>
         </React.Fragment>
     );

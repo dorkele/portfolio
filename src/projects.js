@@ -5,14 +5,15 @@ import Project from "./project.js";
 export default function Projects() {
     let [id, setId] = useState("");
     let [visible, setVisible] = useState(false);
+    const [count, setCount] = useState(0);
 
     function openModal(id) {
+        setCount(0);
         setId(id);
         setVisible(true);
     }
     function closeModal() {
         setVisible(false);
-
         // setId("");
     }
     return (
@@ -65,6 +66,8 @@ export default function Projects() {
                     closeModal={closeModal}
                     visible={visible}
                     setVisible={setVisible}
+                    count={count}
+                    setCount={setCount}
                 />
             )}
         </React.Fragment>
