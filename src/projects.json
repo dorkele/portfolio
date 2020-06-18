@@ -25,7 +25,8 @@
         ],
         "title": "Petition: Found in Translation",
         "description": "Web application for collecting signatures. After successful registration and log in users can sign the petition. They can redo their signature and edit their profile details, as well as check the list of other supporters of the cause. The cause in question was showing support for translators.",
-        "stack": "Javascript, Handlebars, Node / Express, PostgreSQL"
+        "stack": "Javascript, Handlebars, Node / Express, PostgreSQL",
+        "link": "https://foundintranslationpetition.herokuapp.com/register"
     },
     {
         "id": 3,
@@ -54,7 +55,8 @@
         ],
         "title": "Social Network: Bubbles",
         "description": "The idea behind this social network is connecting people who have nothing in common. At this point in the process this SPA has functionalities of a basic social network. Users can register or log in. If an unfortunate event of forgetting the password occurs, users can reset it. They can choose their profile picture and write about themselves. To connect, they can search for other people's profiles, send and accept friend requests or end friendships. They can see who is online and participate in the group chat or chat privately with friends.",
-        "stack": "Javascript, React, Redux, Node / Express, PostgreSQL, Socket.IO"
+        "stack": "Javascript, React, Redux, Node / Express, PostgreSQL, Socket.IO",
+        "link": "https://burstyourbubble.herokuapp.com"
     },
     {
         "id": 5,
@@ -76,6 +78,21 @@
         ],
         "title": "Scrollytelling: Apocalypse Dreams",
         "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. With this project I wanted to explore ways in which code gives extra layers of meaning to the text. The users are invited to explore the story with no one or right way to read. They can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. On various occasions story leads them outside of itself descovering the potential of hypertext. With different animations every part of the story creates different atmospheres and text finds itself in different roles.",
-        "stack": "React, Framer Motion"
+        "stack": "React, Framer Motion",
+        "link": "http://zudnja.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "images": [
+            "/images/screenshots/nina/img1.png",
+            "/images/screenshots/nina/img3.png",
+            "/images/screenshots/nina/img4.png",
+            "/images/screenshots/nina/img5.png",
+            "/images/screenshots/nina/img6.png"
+        ],
+        "title": "Portfolio Page: Nina Bencic",
+        "description": "Graphic designer's contact page. Subtle fade-in and blur-out animation dynamically showcasing visuals of artist's work.",
+        "stack": "React, Framer Motion",
+        "link": "https://ninabencic.com/"
     }
 ]

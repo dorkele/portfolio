@@ -5,30 +5,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 10%); */
     font-size: 25px;
     text-align: center;
     font-family: "Rajdhani", sans-serif;
 }
 
-/* .github {
-    grid-column: 3/4;
-    grid-row: 4/5;
-}
-
-.linkedin {
-    grid-column: 3/4;
-    grid-row: 5/6;
-}
-
-.email {
-    grid-column: 3/4;
-    grid-row: 3/4;
-} */
-
 a {
     text-decoration: none;
-    color: #b4a0e5;
+    color: tomato;
 }

@@ -6,13 +6,8 @@
 .background {
     height: 100%;
     width: 100%;
-    color: #8d99ae;
-    background-color: #282d42;
-}
-
-.bla {
-    position: relative;
-    top: 1200px;
+    background-color: #190b28;
+    color: #fdcff3;
 }
 
 @font-face {

@@ -20,7 +20,7 @@ export default function Projects() {
         <React.Fragment>
             <div id="projects" className={styles.container}>
                 <p
-                    className={styles.fullmoon}
+                    className={styles.project}
                     onClick={() => {
                         openModal(1);
                     }}
@@ -28,7 +28,7 @@ export default function Projects() {
                     Connect Four
                 </p>
                 <p
-                    className={styles.book}
+                    className={styles.project}
                     onClick={() => {
                         openModal(2);
                     }}
@@ -36,7 +36,7 @@ export default function Projects() {
                     Petition: Found in Translation
                 </p>
                 <p
-                    className={styles.sea}
+                    className={styles.project}
                     onClick={() => {
                         openModal(3);
                     }}
@@ -44,7 +44,7 @@ export default function Projects() {
                     Imageboard: Can You Sea Me?
                 </p>
                 <p
-                    className={styles.bubble}
+                    className={styles.project}
                     onClick={() => {
                         openModal(4);
                     }}
@@ -52,12 +52,20 @@ export default function Projects() {
                     Social Network: Bubbles
                 </p>
                 <p
-                    className={styles.stones}
+                    className={styles.project}
                     onClick={() => {
                         openModal(5);
                     }}
                 >
                     Scrollytelling: Apocalypse Dreams
+                </p>
+                <p
+                    className={styles.project}
+                    onClick={() => {
+                        openModal(6);
+                    }}
+                >
+                    Portfolio Page: Nina Bencic
                 </p>
             </div>
             {id && (

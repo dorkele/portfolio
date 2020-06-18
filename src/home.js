@@ -10,7 +10,7 @@ export default function Home() {
     const [projects, setProjects] = useState(false);
     const [contact, setContact] = useState(false);
     const [backGround, setBackGround] = useState("#190B28");
-    const [color, setColor] = useState("#F1E0C5");
+    const [color, setColor] = useState("#FDCFF3");
     const [opacity, setOpacity] = useState(1);
 
     return (

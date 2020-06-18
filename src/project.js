@@ -56,49 +56,41 @@ export default function Project({
                 style={{
                     background: "rgba(0,0,0,0.5)",
                     display: "flex",
-                    flexDirection: "row",
+                    flexDirection: "column",
                 }}
             >
-                <p className={styles.iks} onClick={closeModal}>
-                    X
-                </p>
-                {/* <div
-                    style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        background: "violet",
-                        height: "50%",
-                    }}
-                > */}
-                <div className={styles.img_arrows}>
-                    <p className={styles.navig} onClick={countDecrease}>
-                        &lt;
-                    </p>
-                    <img
-                        src={data[id].images[count]}
-                        alt="screenshot"
-                        className={styles.imgs}
-                    />
-                    {/* {data[id].images.map((val, index) => {
-                    return (
+                <div className={styles.box}>
+                    <div className={styles.img_arrows}>
+                        <p className={styles.navig} onClick={countDecrease}>
+                            &lt;
+                        </p>
                         <img
-                            src={data[id].images[index]}
+                            src={data[id].images[count]}
                             alt="screenshot"
-                            className={styles.image}
+                            className={styles.imgs}
                         />
-                    );
-                })} */}
-
-                    <p className={styles.navig} onClick={countIncrease}>
-                        &gt;
-                    </p>
+                        <p className={styles.navig} onClick={countIncrease}>
+                            &gt;
+                        </p>
+                    </div>
+                    <div className={styles.text}>
+                        <div className={styles.title}>{data[id].title}</div>
+                        <div>{data[id].description}</div>
+                        <div>STACK: {data[id].stack}</div>
+                        {data[id].link && (
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={data[id].link}
+                            >
+                                VISIT
+                            </a>
+                        )}
+                    </div>
                 </div>
-                <div className={styles.text}>
-                    <div className={styles.title}>{data[id].title}</div>
-                    <div>{data[id].description}</div>
-                    <div>STACK: {data[id].stack}</div>
+                <div className={styles.iks} onClick={closeModal}>
+                    X
                 </div>
-                {/* </div> */}
             </Frame>
         </React.Fragment>
     );

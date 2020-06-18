@@ -11,11 +11,7 @@
     overflow: hidden;
 }
 
-.fullmoon,
-.book,
-.sea,
-.bubble,
-.stones {
+.project {
     font-size: 25px;
     text-align: center;
     padding: 1%;
