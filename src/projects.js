@@ -14,7 +14,6 @@ export default function Projects() {
     }
     function closeModal() {
         setVisible(false);
-        // setId("");
     }
     return (
         <React.Fragment>

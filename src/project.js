@@ -11,16 +11,6 @@ export default function Project({
     count,
     setCount,
 }) {
-    // useEffect(() => {
-    //     var project = document.getElementById("project");
-    //     console.log(project);
-    //     project.scrollIntoView({
-    //         behavior: "smooth",
-    //         block: "end",
-    //         inline: "nearest",
-    //     });
-    // }, [id]);
-
     const variants = {
         slideIn: {
             y: 0,
@@ -44,54 +34,53 @@ export default function Project({
         }
     };
     return (
-        <React.Fragment>
-            <Frame
-                className={styles.container}
-                size="100%"
-                y="100%"
-                variants={variants}
-                animate={visible ? "slideIn" : "slideOut"}
-                transition={{ duration: 2.5 }}
-                background="white"
-                style={{
-                    background: "rgba(0,0,0,0.5)",
-                    display: "flex",
-                    flexDirection: "column",
-                }}
-            >
-                <div className={styles.box}>
-                    <div className={styles.img_arrows}>
-                        <p className={styles.navig} onClick={countDecrease}>
-                            &lt;
-                        </p>
-                        <img
-                            src={data[id].images[count]}
-                            alt="screenshot"
-                            className={styles.imgs}
-                        />
-                        <p className={styles.navig} onClick={countIncrease}>
-                            &gt;
-                        </p>
-                    </div>
-                    <div className={styles.text}>
-                        <div className={styles.title}>{data[id].title}</div>
-                        <div>{data[id].description}</div>
-                        <div>STACK: {data[id].stack}</div>
-                        {data[id].link && (
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={data[id].link}
-                            >
-                                VISIT
-                            </a>
-                        )}
-                    </div>
+        <Frame
+            className={styles.container}
+            size="100%"
+            y="100%"
+            variants={variants}
+            animate={visible ? "slideIn" : "slideOut"}
+            transition={{ duration: 2.5 }}
+            background="white"
+            style={{
+                background: "rgba(0,0,0,0.5)",
+                display: "flex",
+                flexDirection: "column",
+                zIndex: 50,
+            }}
+        >
+            <div className={styles.box}>
+                <div className={styles.img_arrows}>
+                    <p className={styles.navig} onClick={countDecrease}>
+                        &lt;
+                    </p>
+                    <img
+                        src={data[id].images[count]}
+                        alt="screenshot"
+                        className={styles.imgs}
+                    />
+                    <p className={styles.navig} onClick={countIncrease}>
+                        &gt;
+                    </p>
                 </div>
-                <div className={styles.iks} onClick={closeModal}>
-                    X
+                <div className={styles.text}>
+                    <div className={styles.title}>{data[id].title}</div>
+                    <div>{data[id].description}</div>
+                    <div>STACK: {data[id].stack}</div>
+                    {data[id].link && (
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={data[id].link}
+                        >
+                            VISIT
+                        </a>
+                    )}
                 </div>
-            </Frame>
-        </React.Fragment>
+            </div>
+            <div className={styles.iks} onClick={closeModal}>
+                X
+            </div>
+        </Frame>
     );
 }

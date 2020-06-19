@@ -2,7 +2,7 @@
     position: fixed;
     padding-top: 10px;
     padding-right: 20px;
-    z-index: 200;
+    z-index: 10;
     font-family: "CirrusCumulus", sans-serif;
     font-size: 40px;
 }
@@ -14,6 +14,6 @@
 }
 .home:focus,
 .projects:focus,
-.contact:focus-within {
+.contact:focus {
     font-style: italic;
 }

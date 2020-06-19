@@ -1,11 +1,11 @@
 * {
     margin: 0;
-    cursor: none;
 }
 
 .background {
     height: 100%;
     width: 100%;
+    cursor: url(/images/eye.PNG), auto;
     background-color: #190b28;
     color: #fdcff3;
 }
