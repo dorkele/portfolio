@@ -1,5 +1,4 @@
 .container {
-    /* grid-template-rows: repeat(6, 10%); */
     position: fixed;
     height: 100%;
     width: 100%;
@@ -15,4 +14,10 @@
     font-size: 25px;
     text-align: center;
     padding: 1%;
+}
+
+.project:hover {
+    cursor: pointer;
+    color: tomato;
+    font-size: 30px;
 }

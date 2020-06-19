@@ -8,9 +8,24 @@
     font-size: 25px;
     text-align: center;
     font-family: "Rajdhani", sans-serif;
+    z-index: 7;
 }
 
 a {
     text-decoration: none;
+    color: #7bc950;
+    z-index: 300;
+}
+
+a:hover {
+    font-style: italic;
     color: tomato;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 30%;
+    }
 }

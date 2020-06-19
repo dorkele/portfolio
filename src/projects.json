@@ -9,7 +9,7 @@
             "/images/screenshots/connect-four/img4.png"
         ],
         "title": "Connect Four",
-        "description": "A classic game of connect-four reimagined as an epic battle between light and dark. A game for two players who have to connect four icons in the same row, column or diagonal. CSS animations indicate player's turn and victory",
+        "description": "A classic game of connect-four reimagined as an epic battle between light and dark. Two players have to connect four icons in the same row, column or diagonal. CSS animations indicate player's turn and victory.",
         "stack": "HTML5, CSS3, jQuery"
     },
     {
@@ -24,7 +24,7 @@
             "/images/screenshots/petition/img7.png"
         ],
         "title": "Petition: Found in Translation",
-        "description": "Web application for collecting signatures. After successful registration and log in users can sign the petition. They can redo their signature and edit their profile details, as well as check the list of other supporters of the cause. The cause in question was showing support for translators.",
+        "description": "Web application for collecting signatures. After a successful registration and login, users can sign the petition. They can redo their signature, edit their profile details, and check the list of other supporters of the cause. The cause in question was showing support for translators.",
         "stack": "Javascript, Handlebars, Node / Express, PostgreSQL",
         "link": "https://foundintranslationpetition.herokuapp.com/register"
     },
@@ -37,7 +37,7 @@
             "/images/screenshots/imageboard/img4.png"
         ],
         "title": "Imageboard: Can You Sea Me?",
-        "description": "Instagram-like SPA where anyone can upload pictures of the sea/ocean along with inspirational quote and a title. Users can see all the images that have been uploaded to the page, leave comments and delete pictures.",
+        "description": "Instagram-like SPA where anyone can upload pictures of the ocean along with a quote and a title. Users can see all the images that have been uploaded to the page, leave comments and delete pictures.",
         "stack": "Javascript, Vue, Node / Express, PostgreSQL, AWS S3"
     },
     {
@@ -54,7 +54,7 @@
             "/images/screenshots/socialnetwork/img12.png"
         ],
         "title": "Social Network: Bubbles",
-        "description": "The idea behind this social network is connecting people who have nothing in common. At this point in the process this SPA has functionalities of a basic social network. Users can register or log in. If an unfortunate event of forgetting the password occurs, users can reset it. They can choose their profile picture and write about themselves. To connect, they can search for other people's profiles, send and accept friend requests or end friendships. They can see who is online and participate in the group chat or chat privately with friends.",
+        "description": "At this point in the process this SPA has functionalities of a basic social network. Users can register, login and reset their password. They can choose their profile picture and write about themselves. To connect, they can search for other people's profiles, send and accept friend requests or end friendships. They can see who is online and participate in the group chat or chat privately with friends.",
         "stack": "Javascript, React, Redux, Node / Express, PostgreSQL, Socket.IO",
         "link": "https://burstyourbubble.herokuapp.com"
     },
@@ -77,7 +77,7 @@
             "/images/screenshots/scrollytelling/img15.png"
         ],
         "title": "Scrollytelling: Apocalypse Dreams",
-        "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. With this project I wanted to explore ways in which code gives extra layers of meaning to the text. The users are invited to explore the story with no one or right way to read. They can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. On various occasions story leads them outside of itself descovering the potential of hypertext. With different animations every part of the story creates different atmospheres and text finds itself in different roles.",
+        "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. The users are invited to explore the story with no one or right way to read. They can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. On various occasions story leads them outside of itself descovering the potential of hypertext. With different animations every part of the story creates a different atmosphere.",
         "stack": "React, Framer Motion",
         "link": "http://zudnja.herokuapp.com/"
     },

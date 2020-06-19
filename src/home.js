@@ -58,6 +58,10 @@ export default function Home() {
                         duration: 2,
                     }}
                     className={styles.title}
+                    style={{
+                        display: "flex",
+                        alignItems: "flex-end",
+                    }}
                 >
                     dora tominic
                 </Frame>

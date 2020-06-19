@@ -11,9 +11,16 @@
 .projects:hover,
 .contact:hover {
     font-style: italic;
+    cursor: pointer;
 }
 .home:focus,
 .projects:focus,
 .contact:focus {
     font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        font-size: 30px;
+    }
 }

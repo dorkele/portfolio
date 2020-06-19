@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styles from "./project.module.css";
 import data from "./projects.json";
 import { Frame } from "framer";
@@ -33,6 +33,7 @@ export default function Project({
             setCount(count + 1);
         }
     };
+
     return (
         <Frame
             className={styles.container}
@@ -43,7 +44,7 @@ export default function Project({
             transition={{ duration: 2.5 }}
             background="white"
             style={{
-                background: "rgba(0,0,0,0.5)",
+                background: "rgba(0,0,0,0.7)",
                 display: "flex",
                 flexDirection: "column",
                 zIndex: 50,
@@ -64,18 +65,20 @@ export default function Project({
                     </p>
                 </div>
                 <div className={styles.text}>
-                    <div className={styles.title}>{data[id].title}</div>
-                    <div>{data[id].description}</div>
-                    <div>STACK: {data[id].stack}</div>
-                    {data[id].link && (
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={data[id].link}
-                        >
-                            VISIT
-                        </a>
-                    )}
+                    <div className={styles.textbox}>
+                        <div className={styles.title}>{data[id].title}</div>
+                        <div>{data[id].description}</div>
+                        <div>STACK: {data[id].stack}</div>
+                        {data[id].link && (
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={data[id].link}
+                            >
+                                VISIT
+                            </a>
+                        )}
+                    </div>
                 </div>
             </div>
             <div className={styles.iks} onClick={closeModal}>
