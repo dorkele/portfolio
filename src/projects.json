@@ -3,10 +3,10 @@
     {
         "id": 1,
         "images": [
-            "/images/screenshots/connect-four/img3.png",
-            "/images/screenshots/connect-four/img2.png",
-            "/images/screenshots/connect-four/img1.png",
-            "/images/screenshots/connect-four/img4.png"
+            "/images/screenshots/connect-four/img3.PNG",
+            "/images/screenshots/connect-four/img2.PNG",
+            "/images/screenshots/connect-four/img1.PNG",
+            "/images/screenshots/connect-four/img4.PNG"
         ],
         "title": "Connect Four",
         "description": "A classic game of connect-four reimagined as an epic battle between light and dark. Two players have to connect four icons in the same row, column or diagonal. CSS animations indicate player's turn and victory.",
@@ -15,13 +15,13 @@
     {
         "id": 2,
         "images": [
-            "/images/screenshots/petition/img1.png",
-            "/images/screenshots/petition/img2.png",
-            "/images/screenshots/petition/img3.png",
-            "/images/screenshots/petition/img4.png",
-            "/images/screenshots/petition/img5.png",
-            "/images/screenshots/petition/img6.png",
-            "/images/screenshots/petition/img7.png"
+            "/images/screenshots/petition/img1.PNG",
+            "/images/screenshots/petition/img2.PNG",
+            "/images/screenshots/petition/img3.PNG",
+            "/images/screenshots/petition/img4.PNG",
+            "/images/screenshots/petition/img5.PNG",
+            "/images/screenshots/petition/img6.PNG",
+            "/images/screenshots/petition/img7.PNG"
         ],
         "title": "Petition: Found in Translation",
         "description": "Web application for collecting signatures. After a successful registration and login, users can sign the petition. They can redo their signature, edit their profile details, and check the list of other supporters of the cause. The cause in question was showing support for translators.",
@@ -31,10 +31,10 @@
     {
         "id": 3,
         "images": [
-            "/images/screenshots/imageboard/img1.png",
-            "/images/screenshots/imageboard/img2.png",
-            "/images/screenshots/imageboard/img3.png",
-            "/images/screenshots/imageboard/img4.png"
+            "/images/screenshots/imageboard/img1.PNG",
+            "/images/screenshots/imageboard/img2.PNG",
+            "/images/screenshots/imageboard/img3.PNG",
+            "/images/screenshots/imageboard/img4.PNG"
         ],
         "title": "Imageboard: Can You Sea Me?",
         "description": "Instagram-like SPA where anyone can upload pictures of the ocean along with a quote and a title. Users can see all the images that have been uploaded to the page, leave comments and delete pictures.",
@@ -43,15 +43,15 @@
     {
         "id": 4,
         "images": [
-            "/images/screenshots/socialnetwork/img1.png",
-            "/images/screenshots/socialnetwork/img5.png",
-            "/images/screenshots/socialnetwork/img6.png",
-            "/images/screenshots/socialnetwork/img7.png",
-            "/images/screenshots/socialnetwork/img8.png",
-            "/images/screenshots/socialnetwork/img9.png",
-            "/images/screenshots/socialnetwork/img10.png",
-            "/images/screenshots/socialnetwork/img11.png",
-            "/images/screenshots/socialnetwork/img12.png"
+            "/images/screenshots/socialnetwork/img1.PNG",
+            "/images/screenshots/socialnetwork/img5.PNG",
+            "/images/screenshots/socialnetwork/img6.PNG",
+            "/images/screenshots/socialnetwork/img7.PNG",
+            "/images/screenshots/socialnetwork/img8.PNG",
+            "/images/screenshots/socialnetwork/img9.PNG",
+            "/images/screenshots/socialnetwork/img10.PNG",
+            "/images/screenshots/socialnetwork/img11.PNG",
+            "/images/screenshots/socialnetwork/img12.PNG"
         ],
         "title": "Social Network: Bubbles",
         "description": "At this point in the process this SPA has functionalities of a basic social network. Users can register, login and reset their password. They can choose their profile picture and write about themselves. To connect, they can search for other people's profiles, send and accept friend requests or end friendships. They can see who is online and participate in the group chat or chat privately with friends.",
@@ -61,34 +61,34 @@
     {
         "id": 5,
         "images": [
-            "/images/screenshots/scrollytelling/img1.png",
-            "/images/screenshots/scrollytelling/img3.png",
-            "/images/screenshots/scrollytelling/img4.png",
-            "/images/screenshots/scrollytelling/img5.png",
-            "/images/screenshots/scrollytelling/img6.png",
-            "/images/screenshots/scrollytelling/img7.png",
-            "/images/screenshots/scrollytelling/img8.png",
-            "/images/screenshots/scrollytelling/img9.png",
-            "/images/screenshots/scrollytelling/img10.png",
-            "/images/screenshots/scrollytelling/img11.png",
-            "/images/screenshots/scrollytelling/img12.png",
-            "/images/screenshots/scrollytelling/img13.png",
-            "/images/screenshots/scrollytelling/img14.png",
-            "/images/screenshots/scrollytelling/img15.png"
+            "/images/screenshots/scrollytelling/img1.PNG",
+            "/images/screenshots/scrollytelling/img3.PNG",
+            "/images/screenshots/scrollytelling/img4.PNG",
+            "/images/screenshots/scrollytelling/img5.PNG",
+            "/images/screenshots/scrollytelling/img6.PNG",
+            "/images/screenshots/scrollytelling/img7.PNG",
+            "/images/screenshots/scrollytelling/img8.PNG",
+            "/images/screenshots/scrollytelling/img9.PNG",
+            "/images/screenshots/scrollytelling/img10.PNG",
+            "/images/screenshots/scrollytelling/img11.PNG",
+            "/images/screenshots/scrollytelling/img12.PNG",
+            "/images/screenshots/scrollytelling/img13.PNG",
+            "/images/screenshots/scrollytelling/img14.PNG",
+            "/images/screenshots/scrollytelling/img15.PNG"
         ],
         "title": "Scrollytelling: Apocalypse Dreams",
-        "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. The users are invited to explore the story with no one or right way to read. They can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. On various occasions story leads them outside of itself descovering the potential of hypertext. With different animations every part of the story creates a different atmosphere.",
+        "description": "Interactive storytelling triggered by user's scrolling, clicking and hovering. The users can jump through parts of the story with steppers that slide in if they click on the icon in the left corner or upon reaching the end of the page. With different animations every part of the story creates a different atmosphere.",
         "stack": "React, Framer Motion",
         "link": "http://zudnja.herokuapp.com/"
     },
     {
         "id": 6,
         "images": [
-            "/images/screenshots/nina/img1.png",
-            "/images/screenshots/nina/img3.png",
-            "/images/screenshots/nina/img4.png",
-            "/images/screenshots/nina/img5.png",
-            "/images/screenshots/nina/img6.png"
+            "/images/screenshots/nina/img1.PNG",
+            "/images/screenshots/nina/img3.PNG",
+            "/images/screenshots/nina/img4.PNG",
+            "/images/screenshots/nina/img5.PNG",
+            "/images/screenshots/nina/img6.PNG"
         ],
         "title": "Portfolio Page: Nina Bencic",
         "description": "Graphic designer's contact page. Subtle fade-in and blur-out animation dynamically showcasing visuals of artist's work.",
