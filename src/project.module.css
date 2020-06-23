@@ -80,23 +80,33 @@
         flex-direction: column;
     }
     .img_arrows {
-        height: 40%;
+        width: 125%;
     }
     .text {
         width: 90%;
+        height: auto;
         text-align: center;
         align-items: center;
         margin-right: 0;
+        margin-top: 5%;
     }
     .textbox {
         width: 100%;
+        height: auto;
         text-align: center;
     }
     .container {
         padding: 0;
-        background: tomato;
     }
     .imgs {
         width: 100%;
+        height: 100%;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .iks {
+        margin-top: 0;
+        font-size: 25px;
     }
 }

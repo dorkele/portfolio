@@ -55,11 +55,14 @@ export default function Project({
                     <p className={styles.navig} onClick={countDecrease}>
                         &lt;
                     </p>
+
                     <img
                         src={data[id].images[count]}
                         alt="screenshot"
                         className={styles.imgs}
+                        onTouchEnd={countIncrease}
                     />
+
                     <p className={styles.navig} onClick={countIncrease}>
                         &gt;
                     </p>
@@ -68,7 +71,9 @@ export default function Project({
                     <div className={styles.textbox}>
                         <div className={styles.title}>{data[id].title}</div>
                         <div>{data[id].description}</div>
-                        <div>STACK: {data[id].stack}</div>
+                        <div>
+                            <strong>STACK:</strong> {data[id].stack}
+                        </div>
                         {data[id].link && (
                             <a
                                 target="_blank"
