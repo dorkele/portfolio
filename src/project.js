@@ -33,7 +33,6 @@ export default function Project({
             setCount(count + 1);
         }
     };
-
     return (
         <Frame
             className={styles.container}
@@ -57,7 +56,8 @@ export default function Project({
                     </p>
 
                     <img
-                        src={data[id].images[count]}
+                        //src={imgPath + data[id].images[count]}
+                        src={`${data[id].images[count]}`}
                         alt="screenshot"
                         className={styles.imgs}
                         onTouchEnd={countIncrease}
