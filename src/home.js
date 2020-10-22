@@ -42,9 +42,9 @@ export default function Home() {
                 <div className={styles.subtitles}>
                     {home && (
                         <p className={styles.fullstack}>
-                            full stack web developer with creative background
-                            and a special interest in words and storytelling on
-                            the web
+                            front-end web developer with creative background and
+                            a special interest in words and storytelling on the
+                            web
                         </p>
                     )}
                 </div>
