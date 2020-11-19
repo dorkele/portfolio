@@ -4,6 +4,7 @@ import { Frame } from "framer";
 import Projects from "./projects.js";
 import Contact from "./contact.js";
 import Nav from "./nav.js";
+import pdf from "./documents/d.tominic-cv.pdf";
 
 export default function Home() {
     const [home, setHome] = useState(true);
@@ -41,11 +42,21 @@ export default function Home() {
                 {projects && <Projects />}
                 <div className={styles.subtitles}>
                     {home && (
-                        <p className={styles.fullstack}>
-                            front-end web developer with creative background and
-                            a special interest in words and storytelling on the
-                            web
-                        </p>
+                        <>
+                            <p className={styles.fullstack}>
+                                front-end web developer with creative background
+                                and a special interest in words and storytelling
+                                on the web
+                            </p>
+                            <a
+                                className={styles.fullstack}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={pdf}
+                            >
+                                Curriculum Vitae
+                            </a>
+                        </>
                     )}
                 </div>
                 <Frame
