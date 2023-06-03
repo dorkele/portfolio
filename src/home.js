@@ -4,7 +4,7 @@ import { Frame } from "framer";
 import Projects from "./projects.js";
 import Contact from "./contact.js";
 import Nav from "./nav.js";
-import pdf from "./documents/d.tominic-CV.pdf";
+import pdf from "./documents/CV.pdf";
 
 export default function Home() {
     const [home, setHome] = useState(true);

@@ -20,51 +20,8 @@ export default function Projects() {
             <div id="projects" className={styles.container}>
                 <p
                     className={styles.project}
-                    onClick={() => {
-                        openModal(1);
-                    }}
                 >
-                    Connect Four
-                </p>
-                <p
-                    className={styles.project}
-                    onClick={() => {
-                        openModal(2);
-                    }}
-                >
-                    Petition: Found in Translation
-                </p>
-                <p
-                    className={styles.project}
-                    onClick={() => {
-                        openModal(3);
-                    }}
-                >
-                    Imageboard: Can You Sea Me?
-                </p>
-                <p
-                    className={styles.project}
-                    onClick={() => {
-                        openModal(4);
-                    }}
-                >
-                    Social Network: Bubbles
-                </p>
-                <p
-                    className={styles.project}
-                    onClick={() => {
-                        openModal(5);
-                    }}
-                >
-                    Scrollytelling: Apocalypse Dreams
-                </p>
-                <p
-                    className={styles.project}
-                    onClick={() => {
-                        openModal(6);
-                    }}
-                >
-                    Portfolio Page: Nina Bencic
+                    Coming Soon!
                 </p>
             </div>
             {id && (
